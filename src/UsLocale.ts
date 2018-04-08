@@ -1,10 +1,11 @@
-import {ILocale} from "@vesta/core";
+import { ILocale } from "@vesta/core-es5";
 
-export const US:ILocale = {
+export const UsLocale: ILocale = {
     code: 'en-US',
     lang: 'en',
     country: 'USA',
     countryCode: 'US',
+    phoneCode: 1,
     dir: 'ltr',
     dateSep: '/',
     dateTimeSep: ' ',
@@ -16,5 +17,5 @@ export const US:ILocale = {
     weekDaysShort: ['Sat', 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
     am_pm: ['am', 'pm'],
     defaultDateFormat: 'Y/m/d',
-    defaultDateTimeFormat: 'Y/m/d H:i:s'
+    defaultDateTimeFormat: 'Y/m/d H:i'
 };
