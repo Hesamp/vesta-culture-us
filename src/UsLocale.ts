@@ -1,4 +1,4 @@
-import { ILocale } from "@vesta/core";
+import { ILocale } from "@vesta/locale";
 
 export const UsLocale: ILocale = {
     code: 'en-US',
