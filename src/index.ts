@@ -1,2 +1,2 @@
-export {UsDate} from "./UsDate";
-export {UsLocale} from "./UsLocale";
+export { UsDate } from "./UsDate";
+export { UsLocale } from "./UsLocale";

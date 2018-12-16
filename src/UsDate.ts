@@ -1,4 +1,4 @@
-import { DateTime, ILocale } from "@vesta/locale";
+import { DateTime, ILocale } from "@vesta/culture";
 import { UsLocale } from "./UsLocale";
 
 export class UsDate extends DateTime {

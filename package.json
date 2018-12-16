@@ -1,11 +1,11 @@
 {
   "name": "@vesta/culture-us",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vesta platform us culture",
   "license": "Apache-2.0",
   "main": "build/index.js",
   "typings": "index.d.ts",
-  "repository": "https://github.com/VestaRayanAfzar/vesta-culture-us.git",
+  "repository": "https://github.com/vestaBoot/vesta-culture-us.git",
   "scripts": {
     "start": "gulp",
     "deploy": "gulp publish"
@@ -15,14 +15,14 @@
     "javadkh2 <khalilian.javad@gmail.com>"
   ],
   "bugs": {
-    "url": "https://github.com/VestaRayanAfzar/vesta-culture-us/issues",
+    "url": "https://github.com/vestaBoot/vesta-culture-us/issues",
     "email": "bishehsary@gmail.com"
   },
   "dependencies": {
-    "@vesta/locale": "^0.1.0"
+    "@vesta/culture": "^0.1.0"
   },
   "devDependencies": {
-    "@vesta/devmaid": "^0.4.1",
+    "@vesta/devmaid": "^0.4.5",
     "gulp": "^4.0.0"
   }
 }
