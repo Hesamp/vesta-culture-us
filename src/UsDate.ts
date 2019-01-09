@@ -10,6 +10,11 @@ export class UsDate extends DateTime {
         this.gregorianDate = new Date();
     }
 
+    public isLeapYear() {
+        const year = this.getFullYear();
+        return ((year % 4 === 0) && (year % 100 !== 0)) || (year % 400 === 0);
+    }
+
     public getDate(): number {
         return this.gregorianDate.getDate();
     }
